@@ -1,2 +1,2 @@
 # tkinter_project
-GUI for listing files in directory and merging pdf files in that directory
+GUI for listing files in a directory and merging all pdf files available in that directory
