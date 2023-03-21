@@ -1,0 +1,396 @@
+2023-03-20 20:14:38,513 - root - INFO Searchdir function START 
+2023-03-20 20:14:38,514 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:14:42,513 - root - INFO appendpdf function START 
+2023-03-20 20:14:42,513 - root - INFO pdflistgen function START 
+2023-03-20 20:14:42,515 - root - INFO MergeObj created 
+2023-03-20 20:14:42,515 - root - INFO pdflistgen function START 
+2023-03-20 20:14:42,515 - root - INFO OPEN file : Abhee-villa-brochure.pdf
+2023-03-20 20:14:42,515 - root - ERROR ERROR OCCURRED in appendpdf function !!! 
+2023-03-20 20:14:42,515 - root - ERROR [Errno 2] No such file or directory: 'Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 58, in appendPdf
+    pdfFileObj = open(fname, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Abhee-villa-brochure.pdf'
+2023-03-20 20:19:05,024 - root - INFO Searchdir function START 
+2023-03-20 20:19:05,024 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:19:06,818 - root - INFO appendpdf function START 
+2023-03-20 20:19:06,819 - root - INFO pdflistgen function START 
+2023-03-20 20:19:06,823 - root - INFO MergeObj created 
+2023-03-20 20:19:06,823 - root - INFO pdflistgen function START 
+2023-03-20 20:19:06,824 - root - INFO OPEN file : Abhee-villa-brochure.pdf
+2023-03-20 20:19:06,824 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:19:06,825 - root - ERROR ERROR OCCURRED in appendpdf function !!! 
+2023-03-20 20:19:06,825 - root - ERROR [Errno 2] No such file or directory: 'Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 59, in appendPdf
+    pdfFileObj = open(fname, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Abhee-villa-brochure.pdf'
+2023-03-20 20:27:44,038 - root - INFO Searchdir function START 
+2023-03-20 20:27:44,038 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:27:46,173 - root - INFO appendpdf function START 
+2023-03-20 20:27:46,174 - root - INFO pdflistgen function START 
+2023-03-20 20:27:46,178 - root - INFO MergeObj created 
+2023-03-20 20:27:46,178 - root - INFO pdflistgen function START 
+2023-03-20 20:27:46,179 - root - INFO OPEN file : Abhee-villa-brochure.pdf
+2023-03-20 20:27:46,179 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:27:46,221 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:27:46,265 - root - INFO file CLOSED : Abhee-villa-brochure.pdf
+2023-03-20 20:27:46,265 - root - INFO OPEN file : NVT Mystic garden.pdf
+2023-03-20 20:27:46,265 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:27:46,275 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:27:46,277 - root - INFO file CLOSED : NVT Mystic garden.pdf
+2023-03-20 20:27:46,277 - root - INFO OPEN file : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:27:46,277 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:27:46,302 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:27:46,335 - root - INFO file CLOSED : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:27:46,679 - root - INFO merged.pdf was created !!! 
+2023-03-20 20:27:51,552 - root - INFO Searchdir function START 
+2023-03-20 20:27:51,552 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:28:07,126 - root - INFO appendpdf function START 
+2023-03-20 20:28:07,126 - root - INFO pdflistgen function START 
+2023-03-20 20:28:07,128 - root - ERROR ERROR OCCURRED in appendpdf function !!! 
+2023-03-20 20:28:07,128 - root - ERROR [WinError 2] The system cannot find the file specified: 'merged.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 49, in appendPdf
+    os.remove("merged.pdf")
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'merged.pdf'
+2023-03-20 20:31:45,911 - root - INFO Searchdir function START 
+2023-03-20 20:31:45,912 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:31:46,941 - root - INFO Searchdir function START 
+2023-03-20 20:31:46,941 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:33:19,295 - root - INFO Searchdir function START 
+2023-03-20 20:33:19,297 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:33:21,657 - root - INFO appendpdf function START 
+2023-03-20 20:33:21,657 - root - INFO pdflistgen function START 
+2023-03-20 20:33:21,658 - root - ERROR ERROR OCCURRED in appendpdf function !!! 
+2023-03-20 20:33:21,659 - root - ERROR [WinError 2] The system cannot find the file specified: 'merged.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 49, in appendPdf
+    os.remove("merged.pdf")
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'merged.pdf'
+2023-03-20 20:36:04,536 - root - INFO Searchdir function START 
+2023-03-20 20:36:04,539 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:36:09,186 - root - INFO appendpdf function START 
+2023-03-20 20:36:09,186 - root - INFO pdflistgen function START 
+2023-03-20 20:36:09,192 - root - INFO merged.pdf was removed from given directory 
+2023-03-20 20:36:09,196 - root - INFO MergeObj created 
+2023-03-20 20:36:09,196 - root - INFO pdflistgen function START 
+2023-03-20 20:36:09,197 - root - INFO OPEN file : Abhee-villa-brochure.pdf
+2023-03-20 20:36:09,197 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:36:09,198 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:36:09,224 - root - INFO file CLOSED : Abhee-villa-brochure.pdf
+2023-03-20 20:36:09,224 - root - INFO OPEN file : NVT Mystic garden.pdf
+2023-03-20 20:36:09,224 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:36:09,224 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:36:09,226 - root - INFO file CLOSED : NVT Mystic garden.pdf
+2023-03-20 20:36:09,226 - root - INFO OPEN file : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:36:09,227 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:36:09,227 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:36:09,237 - root - INFO file CLOSED : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:36:09,569 - root - INFO merged.pdf was created !!! 
+2023-03-20 20:36:54,732 - root - INFO Searchdir function START 
+2023-03-20 20:36:54,732 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:37:04,622 - root - INFO Searchdir function START 
+2023-03-20 20:37:04,624 - root - ERROR ERROR OCCURRED in searchdir function !!! 
+2023-03-20 20:37:04,624 - root - ERROR [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 15, in searchdir
+    for index in range(len(os.listdir(path))):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+2023-03-20 20:37:34,361 - root - INFO appendpdf function START 
+2023-03-20 20:37:34,361 - root - INFO pdflistgen function START 
+2023-03-20 20:37:34,361 - root - ERROR ERROR OCCURRED pdflistgen generator function !!! 
+2023-03-20 20:37:34,361 - root - ERROR [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 32, in pdflistgen
+    for file in os.listdir(path):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+2023-03-20 20:37:34,361 - root - ERROR ERROR OCCURRED in appendpdf function !!! 
+2023-03-20 20:37:34,361 - root - ERROR name 'e3' is not defined
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 32, in pdflistgen
+    for file in os.listdir(path):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 45, in appendPdf
+    s = {os.path.splitext(file)[1] for file in pdflistgen(e1)}  # set comprehension to get unique file extensions
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 45, in <setcomp>
+    s = {os.path.splitext(file)[1] for file in pdflistgen(e1)}  # set comprehension to get unique file extensions
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 38, in pdflistgen
+    e3.delete("1.0", "end")
+NameError: name 'e3' is not defined
+2023-03-20 20:39:38,162 - root - INFO Searchdir function START 
+2023-03-20 20:39:38,162 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:39:42,783 - root - INFO appendpdf function START 
+2023-03-20 20:39:42,783 - root - ERROR ERROR OCCURRED in appendpdf function !!! 
+2023-03-20 20:39:42,783 - root - ERROR pdflistgen() missing 1 required positional argument: 'e3'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 45, in appendPdf
+    s = {os.path.splitext(file)[1] for file in pdflistgen(e1)}  # set comprehension to get unique file extensions
+TypeError: pdflistgen() missing 1 required positional argument: 'e3'
+2023-03-20 20:40:46,682 - root - INFO Searchdir function START 
+2023-03-20 20:40:46,682 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:40:48,699 - root - INFO appendpdf function START 
+2023-03-20 20:40:48,699 - root - INFO pdflistgen function START 
+2023-03-20 20:40:48,703 - root - INFO MergeObj created 
+2023-03-20 20:40:48,704 - root - ERROR ERROR OCCURRED in appendpdf function !!! 
+2023-03-20 20:40:48,704 - root - ERROR pdflistgen() missing 1 required positional argument: 'e3'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 56, in appendPdf
+    for fname in pdflistgen(e1):
+TypeError: pdflistgen() missing 1 required positional argument: 'e3'
+2023-03-20 20:41:55,330 - root - INFO Searchdir function START 
+2023-03-20 20:41:55,332 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:41:58,012 - root - INFO appendpdf function START 
+2023-03-20 20:41:58,012 - root - INFO pdflistgen function START 
+2023-03-20 20:41:58,013 - root - INFO MergeObj created 
+2023-03-20 20:41:58,013 - root - INFO pdflistgen function START 
+2023-03-20 20:41:58,014 - root - INFO OPEN file : Abhee-villa-brochure.pdf
+2023-03-20 20:41:58,014 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:41:58,014 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:41:58,035 - root - INFO file CLOSED : Abhee-villa-brochure.pdf
+2023-03-20 20:41:58,035 - root - INFO OPEN file : NVT Mystic garden.pdf
+2023-03-20 20:41:58,035 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:41:58,035 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:41:58,038 - root - INFO file CLOSED : NVT Mystic garden.pdf
+2023-03-20 20:41:58,038 - root - INFO OPEN file : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:41:58,038 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:41:58,038 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:41:58,048 - root - INFO file CLOSED : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:41:58,384 - root - INFO merged.pdf was created !!! 
+2023-03-20 20:42:01,165 - root - INFO Searchdir function START 
+2023-03-20 20:42:01,167 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:42:01,711 - root - INFO Searchdir function START 
+2023-03-20 20:42:01,713 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:42:04,980 - root - INFO appendpdf function START 
+2023-03-20 20:42:04,980 - root - INFO pdflistgen function START 
+2023-03-20 20:42:04,981 - root - INFO merged.pdf was removed from given directory 
+2023-03-20 20:42:04,982 - root - INFO MergeObj created 
+2023-03-20 20:42:04,982 - root - INFO pdflistgen function START 
+2023-03-20 20:42:04,982 - root - INFO OPEN file : Abhee-villa-brochure.pdf
+2023-03-20 20:42:04,982 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:42:04,982 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:42:05,004 - root - INFO file CLOSED : Abhee-villa-brochure.pdf
+2023-03-20 20:42:05,004 - root - INFO OPEN file : NVT Mystic garden.pdf
+2023-03-20 20:42:05,004 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:42:05,004 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:42:05,006 - root - INFO file CLOSED : NVT Mystic garden.pdf
+2023-03-20 20:42:05,007 - root - INFO OPEN file : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:42:05,007 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:42:05,007 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:42:05,016 - root - INFO file CLOSED : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:42:05,353 - root - INFO merged.pdf was created !!! 
+2023-03-20 20:42:16,764 - root - INFO Searchdir function START 
+2023-03-20 20:42:16,764 - root - ERROR ERROR OCCURRED in searchdir function !!! 
+2023-03-20 20:42:16,764 - root - ERROR [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 15, in searchdir
+    for index in range(len(os.listdir(path))):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+2023-03-20 20:42:51,675 - root - INFO appendpdf function START 
+2023-03-20 20:42:51,675 - root - INFO pdflistgen function START 
+2023-03-20 20:42:51,676 - root - ERROR ERROR OCCURRED pdflistgen generator function !!! 
+2023-03-20 20:42:51,676 - root - ERROR [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 32, in pdflistgen
+    for file in os.listdir(path):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+2023-03-20 20:42:51,677 - root - INFO NO pdf in the given directory 
+2023-03-20 20:44:21,258 - root - INFO Searchdir function START 
+2023-03-20 20:44:21,260 - root - ERROR ERROR OCCURRED in searchdir function !!! 
+2023-03-20 20:44:21,260 - root - ERROR [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 15, in searchdir
+    for index in range(len(os.listdir(path))):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+2023-03-20 20:44:23,354 - root - INFO appendpdf function START 
+2023-03-20 20:44:23,355 - root - INFO pdflistgen function START 
+2023-03-20 20:44:23,355 - root - ERROR ERROR OCCURRED pdflistgen generator function !!! 
+2023-03-20 20:44:23,355 - root - ERROR [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 32, in pdflistgen
+    for file in os.listdir(path):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'D:\\Housing\\Abhee-villa-brochure.pdf'
+2023-03-20 20:44:23,355 - root - INFO NO pdf in the given directory OR Path Specified is a File
+2023-03-20 20:44:58,489 - root - INFO Searchdir function START 
+2023-03-20 20:44:58,491 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:45:03,162 - root - INFO appendpdf function START 
+2023-03-20 20:45:03,163 - root - INFO pdflistgen function START 
+2023-03-20 20:45:03,169 - root - INFO merged.pdf was removed from given directory 
+2023-03-20 20:45:03,173 - root - INFO MergeObj created 
+2023-03-20 20:45:03,173 - root - INFO pdflistgen function START 
+2023-03-20 20:45:03,174 - root - INFO OPEN file : Abhee-villa-brochure.pdf
+2023-03-20 20:45:03,174 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:45:03,175 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:45:03,201 - root - INFO file CLOSED : Abhee-villa-brochure.pdf
+2023-03-20 20:45:03,201 - root - INFO OPEN file : NVT Mystic garden.pdf
+2023-03-20 20:45:03,201 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:45:03,202 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:45:03,204 - root - INFO file CLOSED : NVT Mystic garden.pdf
+2023-03-20 20:45:03,205 - root - INFO OPEN file : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:45:03,205 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:45:03,205 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:45:03,214 - root - INFO file CLOSED : NVT-Mystic-Garden-Floor-Plan.pdf
+2023-03-20 20:45:03,547 - root - INFO merged.pdf was created !!! 
+2023-03-20 20:46:08,958 - root - INFO Searchdir function START 
+2023-03-20 20:46:08,959 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:46:12,533 - root - INFO appendpdf function START 
+2023-03-20 20:46:12,533 - root - INFO pdflistgen function START 
+2023-03-20 20:46:12,533 - root - ERROR ERROR OCCURRED pdflistgen generator function !!! 
+2023-03-20 20:46:12,533 - root - ERROR [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'D:\\Housing\\D:\\Housing\\NRE'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 32, in pdflistgen
+    for file in os.listdir(path):
+OSError: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'D:\\Housing\\D:\\Housing\\NRE'
+2023-03-20 20:46:12,533 - root - INFO NO pdf in the given directory OR Path Specified is a File
+2023-03-20 20:46:34,923 - root - INFO Searchdir function START 
+2023-03-20 20:46:34,923 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:46:42,168 - root - INFO appendpdf function START 
+2023-03-20 20:46:42,168 - root - INFO pdflistgen function START 
+2023-03-20 20:46:42,168 - root - ERROR ERROR OCCURRED pdflistgen generator function !!! 
+2023-03-20 20:46:42,168 - root - ERROR [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'D:\\Housing\\NRED:\\Housing\\NRE'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 32, in pdflistgen
+    for file in os.listdir(path):
+OSError: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'D:\\Housing\\NRED:\\Housing\\NRE'
+2023-03-20 20:46:42,169 - root - INFO NO pdf in the given directory OR Path Specified is a File
+2023-03-20 20:48:34,711 - root - INFO Searchdir function START 
+2023-03-20 20:48:34,711 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:48:36,845 - root - INFO appendpdf function START 
+2023-03-20 20:48:36,846 - root - INFO pdflistgen function START 
+2023-03-20 20:48:36,846 - root - ERROR ERROR OCCURRED pdflistgen generator function !!! 
+2023-03-20 20:48:36,846 - root - ERROR [WinError 3] The system cannot find the path specified: 'Path provided is INVALID Path provided is INVALID'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 32, in pdflistgen
+    for file in os.listdir(path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'Path provided is INVALID Path provided is INVALID'
+2023-03-20 20:48:36,848 - root - INFO NO pdf in the given directory OR Path Specified is a File OR Path provided is INVALID 
+2023-03-20 20:49:12,971 - root - INFO Searchdir function START 
+2023-03-20 20:49:12,972 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:49:17,895 - root - INFO appendpdf function START 
+2023-03-20 20:49:17,895 - root - INFO pdflistgen function START 
+2023-03-20 20:49:17,896 - root - INFO MergeObj created 
+2023-03-20 20:49:17,896 - root - INFO pdflistgen function START 
+2023-03-20 20:49:17,896 - root - INFO OPEN file : 50k_NEFT Abhee.pdf
+2023-03-20 20:49:17,896 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:17,915 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:17,917 - root - INFO file CLOSED : 50k_NEFT Abhee.pdf
+2023-03-20 20:49:17,917 - root - INFO OPEN file : Addon_NRE_NRO_Savings_Acc_Form.pdf
+2023-03-20 20:49:17,917 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:17,931 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:17,960 - root - INFO file CLOSED : Addon_NRE_NRO_Savings_Acc_Form.pdf
+2023-03-20 20:49:17,960 - root - INFO OPEN file : AMB_Declaration.pdf
+2023-03-20 20:49:17,960 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:17,974 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:17,979 - root - INFO file CLOSED : AMB_Declaration.pdf
+2023-03-20 20:49:17,979 - root - INFO OPEN file : ca-parcel-international-direct.pdf
+2023-03-20 20:49:17,979 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:17,995 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,000 - root - INFO file CLOSED : ca-parcel-international-direct.pdf
+2023-03-20 20:49:18,001 - root - INFO OPEN file : CamScanner 11-25-2020 22.45.01.pdf
+2023-03-20 20:49:18,001 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,035 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,050 - root - INFO file CLOSED : CamScanner 11-25-2020 22.45.01.pdf
+2023-03-20 20:49:18,050 - root - INFO OPEN file : December 2020 e-Statement .pdf
+2023-03-20 20:49:18,050 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,062 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,065 - root - INFO file CLOSED : December 2020 e-Statement .pdf
+2023-03-20 20:49:18,065 - root - INFO OPEN file : Extended-KYC-Annexure-Individuals.pdf
+2023-03-20 20:49:18,065 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,080 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,087 - root - INFO file CLOSED : Extended-KYC-Annexure-Individuals.pdf
+2023-03-20 20:49:18,087 - root - INFO OPEN file : February 2021 e-Statement .pdf
+2023-03-20 20:49:18,087 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,099 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,101 - root - INFO file CLOSED : February 2021 e-Statement .pdf
+2023-03-20 20:49:18,101 - root - INFO OPEN file : FinalRERA_Rules-2017.pdf
+2023-03-20 20:49:18,101 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,432 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,443 - root - INFO file CLOSED : FinalRERA_Rules-2017.pdf
+2023-03-20 20:49:18,443 - root - INFO OPEN file : IMG_20201209_0001.pdf
+2023-03-20 20:49:18,443 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,458 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,494 - root - INFO file CLOSED : IMG_20201209_0001.pdf
+2023-03-20 20:49:18,494 - root - INFO OPEN file : January 2021 e-Statement .pdf
+2023-03-20 20:49:18,494 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,506 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,508 - root - INFO file CLOSED : January 2021 e-Statement .pdf
+2023-03-20 20:49:18,508 - root - INFO OPEN file : Manohar_doc.pdf
+2023-03-20 20:49:18,508 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,529 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,539 - root - INFO file CLOSED : Manohar_doc.pdf
+2023-03-20 20:49:18,540 - root - INFO OPEN file : NRE_NRO Doc_Manohar.pdf
+2023-03-20 20:49:18,540 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,557 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,564 - root - INFO file CLOSED : NRE_NRO Doc_Manohar.pdf
+2023-03-20 20:49:18,564 - root - INFO OPEN file : ship.pdf
+2023-03-20 20:49:18,564 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:49:18,570 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:49:18,571 - root - INFO file CLOSED : ship.pdf
+2023-03-20 20:49:20,402 - root - INFO merged.pdf was created !!! 
+2023-03-20 20:49:31,152 - root - INFO Searchdir function START 
+2023-03-20 20:49:31,153 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:50:48,067 - root - INFO Searchdir function START 
+2023-03-20 20:50:48,069 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 20:50:59,622 - root - INFO appendpdf function START 
+2023-03-20 20:50:59,623 - root - INFO pdflistgen function START 
+2023-03-20 20:50:59,628 - root - INFO merged.pdf was removed from given directory 
+2023-03-20 20:50:59,629 - root - INFO MergeObj created 
+2023-03-20 20:50:59,629 - root - INFO pdflistgen function START 
+2023-03-20 20:50:59,629 - root - INFO OPEN file : Abhee-villa-brochure.pdf
+2023-03-20 20:50:59,630 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:50:59,630 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:50:59,657 - root - INFO file CLOSED : Abhee-villa-brochure.pdf
+2023-03-20 20:50:59,657 - root - INFO OPEN file : FULL STACK DATA SCIENCE BOOTCAMP BROCHURE (1) (1) (3).pdf
+2023-03-20 20:50:59,657 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 20:50:59,658 - root - INFO OPEN EXECUTED!!
+2023-03-20 20:50:59,672 - root - INFO file CLOSED : FULL STACK DATA SCIENCE BOOTCAMP BROCHURE (1) (1) (3).pdf
+2023-03-20 20:51:00,087 - root - INFO merged.pdf was created !!! 
+2023-03-20 21:03:32,447 - root - INFO Searchdir function START 
+2023-03-20 21:03:32,448 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 21:03:35,423 - root - INFO appendpdf function START 
+2023-03-20 21:03:35,423 - root - INFO pdflistgen function START 
+2023-03-20 21:03:35,423 - root - ERROR ERROR OCCURRED pdflistgen generator function !!! 
+2023-03-20 21:03:35,424 - root - ERROR [WinError 3] The system cannot find the path specified: 'd:\\\\ineurioncourse'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 46, in pdflistgen
+    for file in os.listdir(path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'd:\\\\ineurioncourse'
+2023-03-20 21:03:35,425 - root - INFO NO pdf in the given directory OR Path Specified is a File OR Path provided is INVALID 
+2023-03-20 21:03:43,687 - root - INFO Searchdir function START 
+2023-03-20 21:03:43,689 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 21:03:49,573 - root - INFO appendpdf function START 
+2023-03-20 21:03:49,573 - root - INFO pdflistgen function START 
+2023-03-20 21:03:49,578 - root - INFO merged.pdf was removed from given directory 
+2023-03-20 21:03:49,582 - root - INFO MergeObj created 
+2023-03-20 21:03:49,582 - root - INFO pdflistgen function START 
+2023-03-20 21:03:49,583 - root - INFO OPEN file : Abhee-villa-brochure.pdf
+2023-03-20 21:03:49,583 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 21:03:49,583 - root - INFO OPEN EXECUTED!!
+2023-03-20 21:03:49,625 - root - INFO file CLOSED : Abhee-villa-brochure.pdf
+2023-03-20 21:03:49,625 - root - INFO OPEN file : FULL STACK DATA SCIENCE BOOTCAMP BROCHURE (1) (1) (3).pdf
+2023-03-20 21:03:49,625 - root - INFO CWD is : D:\FSDS Projects\tkinterPdfmerger
+2023-03-20 21:03:49,626 - root - INFO OPEN EXECUTED!!
+2023-03-20 21:03:49,641 - root - INFO file CLOSED : FULL STACK DATA SCIENCE BOOTCAMP BROCHURE (1) (1) (3).pdf
+2023-03-20 21:03:50,010 - root - INFO merged.pdf was created !!! 
+2023-03-20 21:04:06,671 - root - INFO Searchdir function START 
+2023-03-20 21:04:06,673 - root - INFO Inserted all the files and directories to Text widget 
+2023-03-20 21:04:16,707 - root - INFO Searchdir function START 
+2023-03-20 21:04:16,708 - root - ERROR ERROR OCCURRED in searchdir function !!! 
+2023-03-20 21:04:16,708 - root - ERROR [WinError 267] The directory name is invalid: 'd:\\\\ineuroncourse\\Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 22, in searchdir
+    for index in range(len(os.listdir(path))):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'd:\\\\ineuroncourse\\Abhee-villa-brochure.pdf'
+2023-03-20 21:04:20,532 - root - INFO appendpdf function START 
+2023-03-20 21:04:20,532 - root - INFO pdflistgen function START 
+2023-03-20 21:04:20,532 - root - ERROR ERROR OCCURRED pdflistgen generator function !!! 
+2023-03-20 21:04:20,532 - root - ERROR [WinError 267] The directory name is invalid: 'd:\\\\ineuroncourse\\Abhee-villa-brochure.pdf'
+Traceback (most recent call last):
+  File "D:\FSDS Projects\tkinterPdfmerger\functionPkg\functions.py", line 46, in pdflistgen
+    for file in os.listdir(path):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'd:\\\\ineuroncourse\\Abhee-villa-brochure.pdf'
+2023-03-20 21:04:20,532 - root - INFO NO pdf in the given directory OR Path Specified is a File OR Path provided is INVALID 
